@@ -1,0 +1,63 @@
+@keyframes rotate {
+}
+@keyframes changeSharImage {
+  0% {
+    content: url("../images/shar.jpg");
+  }
+  50% {
+    content: url("../images/shar-1.svg");
+  }
+}
+@keyframes pulseStretchX {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(1.5);
+  }
+}
+
+@keyframes pulseScaleY {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0.7);
+  }
+}
+@keyframes remFastSwitch {
+  0%,
+  70% {
+    background-image: none;
+  }
+  71%,
+  100% {
+    background-image: url(../images/rem2.svg);
+  }
+}
+@keyframes remImgFastSwitch {
+  0%,
+  70% {
+    opacity: 1;
+  }
+  71%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes seamlessUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'cofo_gothic_vfregular';
+    src: url('../fonts/cofo_gothic_vf_regular-webfont.eot');
+    src: url('../fonts/cofo_gothic_vf_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cofo_gothic_vf_regular-webfont.woff2') format('woff2'),
+         url('../fonts/cofo_gothic_vf_regular-webfont.woff') format('woff'),
+         url('../fonts/cofo_gothic_vf_regular-webfont.ttf') format('truetype'),
+         url('../fonts/cofo_gothic_vf_regular-webfont.svg#cofo_gothic_vfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
