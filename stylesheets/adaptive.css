@@ -13,7 +13,7 @@
     padding: 12px 8px 6px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .top__box__year-mobile,
   .top__box__year-mobile2,
   .top__box__year-mobile3 {
